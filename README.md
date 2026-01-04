@@ -10,40 +10,40 @@ The pipeline:
 - Generates multiple plots to help interpret and validate the results visually
 
 Metrics being computed:
-**Pearson's Correlation Coefficient (PCC)**
+- [x] **Pearson's Correlation Coefficient (PCC)**
   - Measures linear correlation between intensities of two channels.
     
-**Manders’ Coefficients (M1, M2)**
+- [x] **Manders’ Coefficients (M1, M2)**
 - Quantify the fraction of signal in one channel that overlaps with the other:
 
-**Overlap Coefficient**
+- [x] **Overlap Coefficient**
 Measures normalized intensity overlap between channels.
 
-**Li’s Intensity Correlation Quotient (ICQ)**
+- [x] **Li’s Intensity Correlation Quotient (ICQ)**
 - Indicates whether pixel intensities vary synchronously, randomly, or segregated.
 
-**Cytofluorogram Regression Parameters**
+- [x] **Cytofluorogram Regression Parameters**
 - Computes slope and intercept from the intensity–intensity scatter plot.
 
 Visual outputs:
-- Individual red and green channel images
-- Merged red and green channels
-- Thresholded channel images
-- Colocalization mask
-- Cytofluorogram plot
-- Intensity profiles
-- Colocalization intensity maps
+- [x] Individual red and green channel images
+- [x] Merged red and green channels
+- [x] Thresholded channel images
+- [x] Colocalization mask
+- [x] Cytofluorogram plot
+- [x] Intensity profiles
+- [x] Colocalization intensity maps
 
 Observation:
 - This pipeline assumes red and green channels colocalization
 - Thresholding strategy can significantly affect results
 
 **TODO / Planned Improvements:**
-- Costes Thresholding
-- Background subtraction
-- Morphological operators
-- Thresholding Sensitivity Analysis
-- Metric validation and comparison with existing tools (FIJI/Coloc2/BIOP)
+- [] Costes Thresholding
+- [] Background subtraction
+- [] Morphological operators
+- [] Thresholding Sensitivity Analysis
+- [] Metric validation and comparison with existing tools (FIJI/Coloc2/BIOP)
 
 
 **Contributions are welcome and encouraged.**
