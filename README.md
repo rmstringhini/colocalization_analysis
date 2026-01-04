@@ -43,6 +43,9 @@ Observation:
 - Background subtraction
 - Morphological operators
 - Thresholding Sensitivity Analysis
+- Metric validation and comparison with existing tools (FIJI/Coloc2/BIOP)
 
 
+**Contributions are welcome and encouraged.**
+This repository is intended to be an open, evolving reference implementation for fluorescence microscopy colocalization analysis. Improvements, bug fixes, extensions, and validation experiments are all appreciated. Please feel free to open an issue to discuss ideas, questions, or potential improvements before submitting a pull request.
   
