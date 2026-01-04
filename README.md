@@ -1,7 +1,7 @@
 Fluorescence microscopy colocalization analysis quantifies the spatial overlap between two or more fluorescent signals in an image in order to assess whether different molecules, structures, or labels are spatially associated.
 This is commonly visualized by overlaying fluorescence channels (e.g., red and green, with yellow indicating overlap) and quantified using statistical coefficients such as Pearson’s Correlation Coefficient (PCC) and Manders’ Colocalization Coefficients (MCC).
 
-This repository provides a simple Python pipeline for performing colocalization analysis on multichannel fluorescence microscopy images.
+This repository provides a simple Python pipeline (inspired by FIJI) for performing colocalization analysis on multichannel fluorescence microscopy images.
 
 The pipeline:
 - Loads multichannel TIFF images
