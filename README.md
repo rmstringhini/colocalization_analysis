@@ -39,11 +39,11 @@ Observation:
 - Thresholding strategy can significantly affect results
 
 **TODO / Planned Improvements:**
-- [] Costes Thresholding
-- [] Background subtraction
-- [] Morphological operators
-- [] Thresholding Sensitivity Analysis
-- [] Metric validation and comparison with existing tools (FIJI/Coloc2/BIOP)
+- [ ] Costes Thresholding
+- [ ] Background subtraction
+- [ ] Morphological operators
+- [ ] Thresholding Sensitivity Analysis
+- [ ] Metric validation and comparison with existing tools (FIJI/Coloc2/BIOP)
 
 
 **Contributions are welcome and encouraged.**
