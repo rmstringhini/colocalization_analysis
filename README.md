@@ -17,7 +17,7 @@ Metrics being computed:
 - Quantify the fraction of signal in one channel that overlaps with the other:
 
 - [x] **Overlap Coefficient**
-Measures normalized intensity overlap between channels.
+- Measures normalized intensity overlap between channels.
 
 - [x] **Li’s Intensity Correlation Quotient (ICQ)**
 - Indicates whether pixel intensities vary synchronously, randomly, or segregated.
